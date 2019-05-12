@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8)
+project(recv)
+set(recv_MAJOR_VERSION 1)
+set(recv_MINOR_VERSION 0)
+set(CMAKE_CXX_STANDARD 11)
+add_executable(recv recv.cpp)
+add_executable(send send.cpp)
